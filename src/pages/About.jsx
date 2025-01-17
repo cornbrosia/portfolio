@@ -16,6 +16,14 @@ const About = () => {
 
         I'm currently seeking exciting opportunities to contribute my skills and grow as a developer. Let’s connect and build something amazing together!
         </p>
+                    <a
+            href="/assets/Ben_Watson_Resume_Fixed.pdf"
+            download="Ben_Watson_Resume_Fixed.pdf"
+            className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-800 transition"
+            >
+            Download My Resume
+            </a>
+
       </div>
     </section>
   );
