@@ -10,6 +10,16 @@ const Navbar = () => {
           <li><a href="#about" className="hover:text-gray-400">About</a></li>
           <li><a href="#projects" className="hover:text-gray-400">Projects</a></li>
           <li><a href="#contact" className="hover:text-gray-400">Contact</a></li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/ben-watson-5a82b11bb/"
+              target="_blank"
+              rel="noreferrer"
+              className="hover:text-blue-400"
+            >
+              LinkedIn
+            </a>
+            </li>
         </ul>
       </div>
     </nav>
