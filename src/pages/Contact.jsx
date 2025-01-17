@@ -52,7 +52,7 @@ const Contact = () => {
           ></textarea>
           <div className="text-center mt-6">
             <button
-                type="button"
+                type="submit"
                 className="bg-gradient-to-r from-blue-500 to-purple-500 text-white px-6 py-3 rounded-md shadow-lg hover:from-blue-600 hover:to-purple-600 transition"
             >
                 Send Message
