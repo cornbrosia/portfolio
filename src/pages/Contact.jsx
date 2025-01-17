@@ -1,27 +1,59 @@
-import React from 'react';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm(
+      'service_ask79y6',      // ✅ Your Service ID
+      'template_svq5ksj',     // ✅ Your Template ID
+      form.current,
+      'WZeyI5CtSEyG9WS0e'     // ✅ Your Public Key
+    )
+    .then((result) => {
+      console.log(result.text);
+      alert('✅ Message sent successfully!');
+    }, (error) => {
+      console.error(error.text);
+      alert('❌ Something went wrong. Please try again.');
+    });
+
+    e.target.reset();  // Clears the form after successful submission
+  };
+
   return (
     <section id="contact" className="py-20 bg-gray-100">
       <div className="container mx-auto px-6">
         <h2 className="text-4xl font-bold text-center mb-8">Get In Touch</h2>
-        <form className="max-w-lg mx-auto">
+        <form ref={form} onSubmit={sendEmail} className="max-w-lg mx-auto">
           <input
             type="text"
+            name="user_name"
             placeholder="Your Name"
             className="w-full p-3 mb-4 border border-gray-300 rounded"
+            required
           />
           <input
             type="email"
+            name="user_email"
             placeholder="Your Email"
             className="w-full p-3 mb-4 border border-gray-300 rounded"
+            required
           />
           <textarea
+            name="message"
             placeholder="Your Message"
             rows="5"
             className="w-full p-3 mb-4 border border-gray-300 rounded"
+            required
           ></textarea>
-          <button type="submit" className="w-full bg-blue-500 text-white p-3 rounded hover:bg-blue-600">
+          <button
+            type="submit"
+            className="w-full bg-blue-500 text-white p-3 rounded hover:bg-blue-600"
+          >
             Send Message
           </button>
         </form>

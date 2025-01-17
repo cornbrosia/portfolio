@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <section id="home" className="h-screen flex items-center justify-center bg-gradient-to-r from-blue-500 to-purple-600">
       <div className="text-center text-white">
-        <h1 className="text-5xl font-bold mb-4">Hi, I'm [Your Name]</h1>
+        <h1 className="text-5xl font-bold mb-4">Hi, I'm Ben Watson</h1>
         <p className="text-2xl mb-6">A Passionate Web Developer</p>
         <a
           href="#projects"
