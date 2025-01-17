@@ -50,12 +50,15 @@ const Contact = () => {
             className="w-full p-3 mb-4 border border-gray-300 rounded"
             required
           ></textarea>
-          <button
-            type="submit"
-            className="w-full bg-blue-500 text-white p-3 rounded hover:bg-blue-600"
-          >
-            Send Message
-          </button>
+          <div className="text-center mt-6">
+            <button
+                type="button"
+                className="bg-gradient-to-r from-blue-500 to-purple-500 text-white px-6 py-3 rounded-md shadow-lg hover:from-blue-600 hover:to-purple-600 transition"
+            >
+                Send Message
+            </button>
+          </div>
+
         </form>
       </div>
     </section>

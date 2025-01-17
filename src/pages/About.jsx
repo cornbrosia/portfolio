@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Resume from '../files/Ben_Watson_Resume_Fixed.pdf'; 
 const About = () => {
   return (
     <section id="about" className="py-20 bg-gray-100">
@@ -26,7 +26,7 @@ const About = () => {
         {/* ✅ Corrected Download Link */}
         <div className="flex justify-center mt-6">
           <a
-            href="/files/Ben_Watson_Resume_Fixed.pdf"
+            href={Resume}
             download
             className="bg-gradient-to-r from-blue-500 to-purple-500 text-white px-6 py-3 rounded-md shadow-lg hover:from-blue-600 hover:to-purple-600 transition"
           >
