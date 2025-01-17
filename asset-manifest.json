@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.7b594769.css",
-    "main.js": "/portfolio/static/js/main.aa969a7a.js",
+    "main.css": "/portfolio/static/css/main.b6464428.css",
+    "main.js": "/portfolio/static/js/main.e486c8d0.js",
     "static/js/488.9561f9b8.chunk.js": "/portfolio/static/js/488.9561f9b8.chunk.js",
     "static/media/movie-shot.png": "/portfolio/static/media/movie-shot.cc8dc0c9c3d0f7b3010c.png",
     "static/media/project-screenshot.png": "/portfolio/static/media/project-screenshot.8ae78c60184bdc45e3dd.png",
     "static/media/poke-shot.png": "/portfolio/static/media/poke-shot.a341c2c026cca8122f33.png",
+    "static/media/Ben_Watson_Resume_Fixed.pdf": "/portfolio/static/media/Ben_Watson_Resume_Fixed.9c9e4cb92bd9d7b379eb.pdf",
     "index.html": "/portfolio/index.html",
-    "main.7b594769.css.map": "/portfolio/static/css/main.7b594769.css.map",
-    "main.aa969a7a.js.map": "/portfolio/static/js/main.aa969a7a.js.map",
+    "main.b6464428.css.map": "/portfolio/static/css/main.b6464428.css.map",
+    "main.e486c8d0.js.map": "/portfolio/static/js/main.e486c8d0.js.map",
     "488.9561f9b8.chunk.js.map": "/portfolio/static/js/488.9561f9b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b594769.css",
-    "static/js/main.aa969a7a.js"
+    "static/css/main.b6464428.css",
+    "static/js/main.e486c8d0.js"
   ]
 }
