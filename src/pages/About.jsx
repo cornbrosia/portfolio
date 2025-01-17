@@ -1,4 +1,8 @@
 import React from 'react';
+import projectScreenshot from '../assets/project-screenshot.png';
+import pokeShot from '../assets/poke-shot.png';
+import movieShot from '../assets/movie-shot.png';
+
 
 const Projects = () => {
   return (
@@ -8,7 +12,7 @@ const Projects = () => {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="bg-gray-100 shadow-lg rounded-lg overflow-hidden">
-            <img src="/assets/project-screenshot.png" alt="Project Screenshot" className="w-full h-48 object-cover"/>
+          <img src={projectScreenshot} alt="Project Screenshot" className="w-full h-48 object-cover" />
             <div className="p-6">
               <h3 className="text-xl font-semibold mb-2">Description/Objective and tech used</h3>
               <p className="text-gray-700 mb-4">
@@ -59,7 +63,7 @@ const Projects = () => {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="bg-gray-100 shadow-lg rounded-lg overflow-hidden">
-            <img src="/assets/poke-shot.png" alt="Pokedex Screenshot" className="w-full h-48 object-cover"/>
+          <img src={pokeShot} alt="Pokédex Screenshot" className="w-full h-48 object-cover" />
             <div className="p-6">
               <h3 className="text-xl font-semibold mb-2">Description/Objective and tech used</h3>
               <p className="text-gray-700 mb-4">
@@ -93,7 +97,7 @@ const Projects = () => {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="bg-gray-100 shadow-lg rounded-lg overflow-hidden">
-            <img src="/assets/movie-shot.png" alt="MyFlix Screenshot" className="w-full h-48 object-cover"/>
+          <img src={movieShot} alt="MyFlix Screenshot" className="w-full h-48 object-cover" />
             <div className="p-6">
               <h3 className="text-xl font-semibold mb-2">Description/Objective and tech used</h3>
               <p className="text-gray-700 mb-4">
