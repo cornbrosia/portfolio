@@ -15,14 +15,18 @@ const About = () => {
         When I’m not coding, you’ll find me exploring new music, collecting guitars, bouldering, or experimenting with superhot peppers in my garden. I believe in continuous learning and enjoy collaborating with others to bring innovative ideas to life.
 
         I'm currently seeking exciting opportunities to contribute my skills and grow as a developer. Let’s connect and build something amazing together!
-        </p>
-                    <a
+            <a
             href="/assets/Ben_Watson_Resume_Fixed.pdf"
             download="Ben_Watson_Resume_Fixed.pdf"
-            className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-800 transition"
+            className="block mx-auto mt-8 w-48 text-center text-white font-semibold py-2 px-4 rounded-md transition transform hover:scale-105"
+            style={{
+                backgroundImage: 'linear-gradient(to right, #6a11cb, #2575fc)',
+                boxShadow: '0px 4px 15px rgba(106, 17, 203, 0.3)',
+            }}
             >
             Download My Resume
             </a>
+        </p>
 
       </div>
     </section>

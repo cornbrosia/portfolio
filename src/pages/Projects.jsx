@@ -1,7 +1,7 @@
 import React from 'react';
-import projectScreenshot from '../assets/project-screenshot.png';
-import pokeShot from '../assets/poke-shot.png';
-import movieShot from '../assets/movie-shot.png';
+import projectScreenshot from '/assets/project-screenshot.png';
+import pokeShot from '/assets/poke-shot.png';
+import movieShot from '/assets/movie-shot.png';
 const Projects = () => {
   return (
     <section id="projects" className="py-20 bg-white">
